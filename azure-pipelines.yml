@@ -1,9 +1,9 @@
 ---
 trigger:
-- master
+- main
 
 pool:
-  name: default
+  name: 'azure pipelines'
   vmImage: 'ubuntu-latest'
 
 steps:
