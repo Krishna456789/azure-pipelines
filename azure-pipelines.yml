@@ -11,3 +11,11 @@ steps:
   inputs:
     versionSpec: 'v10.19.0'
   displayName: "installing nodejs"  
+
+- task: Npm@1
+  inputs:
+    command: install
+  displayName: "installing npm"
+    
+    
+
