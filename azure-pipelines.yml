@@ -16,6 +16,9 @@ steps:
   inputs:
     command: install
   displayName: "installing npm"
+
+- script: npm run build
+  displayname: npm build
     
     
 
